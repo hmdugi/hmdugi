@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+box1 {
+    background-color: black;
+    width: 100%;
+}
+
+line {
+    position: relative;
+    stroke: rgb(255,255,255);
+    stroke-width: 3;
+    z-index: 999;
+/*    box-shadow: 0 0 5px rgba(255,255,255,0.8);*/
+}
+
+button {
+    position: absolute;
+    z-index: 1000;
+}
+svg {
+    position: absolute;
+    top: 0;
+}
+
+
+.filter {
+    filter: drop-shadow( 0 2px 20px white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
